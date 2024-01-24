@@ -1,0 +1,155 @@
+.request {
+  background-color: black;
+  color: white;
+  height: 38px;
+  width: 115px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.8s;
+}
+
+.request:hover {
+  opacity: 0.7;
+}
+
+.request:active{
+  opacity: 0.3;
+}
+
+.add {
+  background-color: rgb(255, 216, 20);
+  font-weight: bold;
+  border: none;
+  height: 32px;
+  width: 165px;
+  border-radius: 19px;
+  margin-left: 45px;
+  cursor: pointer; 
+  transition: all 2s ease-in-out;
+}
+
+.add:hover{
+  background-color: black;
+  color: yellow;
+}
+
+.add:active{
+  background-color: white;
+  color: black;
+}
+
+.sign {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  font-weight: bold;
+  height: 38px;
+  width: 110px;
+  border: none !important;
+  border: 1px solid;
+  border-radius: 8px;
+  margin-left: 45px;
+  transition: box-shadow 1s;
+}
+
+.sign:hover{
+  box-shadow: 5px 5px 5px rgba(161, 248, 0, 0.3);
+}
+
+.boot {
+  background-color: rgb(121, 82, 179);
+  border: none;
+  color: white;
+  width: 115px;
+  height: 38px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.boot:hover {
+  opacity: 0.7;
+}
+.boot:active {
+  opacity: 0.3;
+}
+
+.down {
+  background-color: white;
+  border: 1px solid rgb(108, 117, 125);
+  font-weight: bold;
+  width: 115px;
+  height: 38px;
+  border-radius: 3px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.down:hover {
+  background-color: cadetblue;
+  color: white;
+  border: 1px solid rgb(4, 137, 245)
+}
+
+.lin {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  font-weight: bold;
+  width: 225px;
+  height: 38px;
+  border-radius: 19px;
+  margin-left: 35px;
+  cursor: pointer;
+  transition: all 2s ease-in-out;
+}
+
+.lin:hover {
+  background-color: rgba(51, 23, 23, 0.281);
+  color: rgb(10, 102, 194);
+}
+
+.sav {
+  background-color: white;
+  border: 1px solid black;
+  font-weight: bolder;
+  width: 75px;
+  height: 38px;
+  border-radius: 19px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.sav:hover {
+  border-radius: 17px;
+  border-color:blueviolet;
+  border-style: dotted;
+  border-width: 2px;
+}
+
+.price {
+  color: green;
+  font-weight: bolder;
+}
+
+.now {
+  background-color: rgb(255, 216, 20);
+  font-weight: bold;
+  border: none;
+  height: 32px;
+  width: 125px;
+  border-radius: 19px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.buy {
+  background-color: rgb(255, 216, 20);
+  font-weight: bold;
+  border: none;
+  height: 32px;
+  width: 125px;
+  border-radius: 19px;
+  cursor: pointer; 
+}
